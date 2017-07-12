@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Istok';
+  src: url('fonts/IstokWeb-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family:'LoraBold';
+  src: url('fonts/Lora-Bold.ttf');
+}
+
+@font-face {
+  font-family:'Lora';
+  src: url('fonts/Lora-Regular.ttf');
+}
+
+.titulo{
+  color: #f6ae2d !important;
+  background-color: #33658a !important;
+  font-family: 'LoraBold' !important;
+}
+
+.bg-primary{
+  color: #f6ae2d !important;
+  background-color: #33658a !important;
+  font-family: 'Lora' !important;
+}
+
+.panel-body{
+  background-color: #86bbd8;
+}
+
+.table{
+  background-color: #f6ae2d;
+  font-family: 'Istok' !important;
+}
