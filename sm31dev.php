@@ -8,16 +8,17 @@
 	<title>Cambios Semanales Planificados </title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="http://dskdoscc2:8888/sm/css/sm31.css">
+	<link rel="stylesheet" type="text/css" href="css/sm31.css">
+	<link rel="stylesheet" type="text/css" href="css/calendar_green.css">
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="http://dskdoscc2:8888/sm/js/sm31.js"></script>
-	<script src="http://dskdoscc2:8888/sm/js/moment-with-locales.js"></script>
-	<link rel='stylesheet' href='http://dskdoscc2:8888/sm/fullcalendar/fullcalendar.css' />
-	<script src='http://dskdoscc2:8888/sm/fullcalendar/fullcalendar.js'></script>
-	<script src='http://dskdoscc2:8888/sm/fullcalendar/locale-all.js'></script>
+	<script src="js/sm31.js"></script>
+	<script src="js/moment-with-locales.js"></script>
+	<link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
+	<script src='fullcalendar/fullcalendar.js'></script>
+	<script src='fullcalendar/locale-all.js'></script>
 </head>
 <body>
 <div class="container-fluid">
@@ -147,11 +148,12 @@
 
 				</table>
 			</div>
-    </div>
-		<button type="button" class="btn btn-info btn-xs bg-primary" data-toggle="collapse" data-target="#calendar">Planning</button>
+			<button type="button" id ="planning" class="btn btn-info btn-xs bg-primary" data-toggle="collapse" data-target="#calendar">Planning</button>
 
 		<div id='calendar' class="collapse panel-footer"></div>
 		<div class="panel-footer"><p class="text-center"><b>Centro de Control 2017</b></p></div>
+    </div>
+		
 </div>
 </div>
 </div>

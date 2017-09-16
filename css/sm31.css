@@ -1,35 +1,55 @@
-@font-face {
-  font-family: 'Istok';
-  src: url('fonts/IstokWeb-BoldItalic.ttf');
-}
-
-@font-face {
-  font-family:'LoraBold';
-  src: url('fonts/Lora-Bold.ttf');
-}
-
-@font-face {
-  font-family:'Lora';
-  src: url('fonts/Lora-Regular.ttf');
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+    max-width: 1200px;
+  }
 }
 
 .titulo{
-  color: #f6ae2d !important;
-  background-color: #33658a !important;
-  font-family: 'LoraBold' !important;
-}
+  color: #33658a !important;
+  background-color: #F5F3EA !important;
+  /*font-family: 'Calibri' !important;*/
+  font-size: 26px !important;
 
+}
+.industrial{
+  background-color: #fdc966;
+}
 .bg-primary{
-  color: #f6ae2d !important;
+  color: #F5F3EA !important;
   background-color: #33658a !important;
-  font-family: 'Lora' !important;
+  /*font-family: 'Calibri' !important;*/
+  font-size: 18px !important;
 }
 
 .panel-body{
-  background-color: #86bbd8;
+  background-color: #F5F3EA;
 }
 
 .table{
-  background-color: #f6ae2d;
-  font-family: 'Istok' !important;
+  background-color: #F5F3EA;
+  /*font-family: 'LibreBas' !important;*/
+  font-size: 16px !important;
+}
+
+th{
+  text-align: center;
+}
+
+.panel-footer{
+  color: #33658a !important;
+  background-color: #F5F3EA !important;
+  /*font-family: 'Calibri' !important;*/
+  font-size: 18px !important;
+
+}
+
+td .fc-sat { background-color: #fdc966 !important; }
+td .fc-sun { background-color: #fdc966 !important;  }
+
+.vertical-center{
+  min-height: 100%; /*para navegadores que no soportan unidad vh*/
+  min-height: 100vh; /*estas dos lineas son contadas como una*/
+  display: flex;
+  align-items: center;
 }
